@@ -135,7 +135,7 @@ background:#A9A9A9;
 <!-- Header for back button and login text at top -->
 <div class="header">
 <br>&emsp;
-<img onclick="goBack()" alt="home.html" src="/img/arrow.png" width="25" height="25">
+<img onclick="goBack()" src="/img/arrow.png" width="25" height="25">
 
 <b style="margin-left:20px;margin-bottom:10px;font-size:25px;color:white">Login</b>
 </div>
