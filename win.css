@@ -1,0 +1,235 @@
+/*Blue container for user info*/
+.header{
+background:#2196f3;
+display: run-in;
+width: auto;
+height: 20%;
+border-radius:4px;
+}
+
+/*container for footer buttons*/
+.footer{
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+height:auto;
+   background-color: white;
+   color: grey;
+   text-align: left;
+}
+
+/*green color button for bet*/
+.green_button{
+ padding: 10px 10px;
+background:#006600;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+border-radius: 2px;
+font-family:sans-serif;
+position:fixed;
+outline:none;
+}
+.green_button:hover{ /*when hover on green button button change color*/
+background:#009900;
+}
+/*voilet color button for bet*/
+.voilet_button{
+ padding: 10px 10px;
+background:#9900CC;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+border-radius: 2px;
+font-family:sans-serif;
+position:fixed;
+outline:none;
+
+}
+.voilet_button:hover{ /*when hover on voilet button change color*/
+background:#9966CC;
+}
+
+/*red color button for bet*/
+.red_button{
+ padding: 10px 10px;
+background:#E00000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+border-radius: 2px;
+font-family:sans-serif;
+position:fixed;
+outline:none;
+
+}
+.red_button:hover{ /*when hover on red button change color*/
+background:#ff0000;
+}
+
+/*recharge button in the header*/
+.recharge_button{
+ padding: 10px 10px;
+background:#003300;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+border-radius: 2px;
+font-family:sans-serif;
+font-weight:bold;
+position:fixed;
+outline:none;
+}
+.recharge_button:hover{ /*when hover on recharge button change color*/
+background:#006600;
+}
+
+
+#body_gradient {
+  background-image: linear-gradient(to right,#434343 , #000000);
+}
+
+
+/*buttons in the footer*/
+.footer_btn{
+background:white;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+border-radius: 2px;
+width:auto
+}
+.footer_btn:hover{ /*when hover on footer buttons change color*/
+background:#C0C0C0;
+}
+
+/*read rules button in the header*/
+.rules_btn{
+ padding: 10px 10px;
+background:#D3D3D3;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+border-radius: 2px;
+font-weight:bold;
+outline:none;
+
+}
+.rules_btn:hover{ /*hower effect on read rules button*/
+background:#A9A9A9;
+}
+
+/*div which have centererd elements*/
+.center {
+background:green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+width:100%;
+}
+
+.timer_holder{
+background:none;
+width: 100%;
+height: 75px;
+}
+
+.color_holder{
+background:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+width:100%;
+}
+
+.btn_holder{
+background:green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+width:100%;
+}
+
+/*bet buttons*/
+.bet_btn{
+background:black;
+  border: none;
+  color: yellow;
+  padding: 11px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+border-radius: 2px;
+font-weight:bold;
+margin:5px;
+}
+.bet_btn:hover{ /*hower effect on bet buttons*/
+background:#101010;
+}
+
+input[type=text] {
+
+  background-position: 20px; 
+background-size: 30px 30px;
+  background-repeat: no-repeat;
+font-size: 16px;
+  width: 95%;
+  padding: 15px 20px;
+  margin-top: 20px;
+margin-right: 10px;
+  box-sizing: border-box;
+border: 2px white;
+color:black;
+}
+
+input[type=tel] {
+  background-position: 20px; 
+background-size: 30px 30px;
+  background-repeat: no-repeat;
+font-size: 16px;
+  width: 90%;
+  padding: 15px 20px;
+  margin-top: 20px;
+margin-right: 10px;
+color:black;
+}
+
+
+input[type=password] {
+background-image: url('/img/key.png');
+  background-position: 20px; 
+background-size: 30px 30px;
+  background-repeat: no-repeat;
+font-size: 16px;
+  width: 95%;
+  padding: 15px 20px;
+  margin-top: 20px;
+margin-right: 10px;
+  box-sizing: border-box;
+border: 2px white;
+color:black;
+}
+
+::placeholder {
+  color:grey;
+  opacity: 10;
+}
+
+
