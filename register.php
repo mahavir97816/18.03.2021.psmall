@@ -101,7 +101,7 @@
 <!-- Header for back button and login text at top -->
 <div class="header">
   <br>&emsp;
-  <img onclick="goBack()" alt="home.html" src="/assets/arrow.png" width="25" height="25">
+  <img onclick="goBack()" src="/img/arrow.png" width="25" height="25">
 
   <b style="margin-left:16px;margin-bottom:10px;font-size:20px;color:white;">Register</b>
 </div>
